@@ -191,9 +191,3 @@ dotnet nuget push &quot;bin/Release/&lt;ApplicationName&gt;.1.0.0.nupkg&quot;  -
 <p>The first time, Github asks you the username/password.</p>
 
 <p>Happy coding!</p>
-
-<h2>History</h2>
-
-<ul>
-	<li>16<sup>th</sup> January, 2021: Initial version</li>
-</ul>
