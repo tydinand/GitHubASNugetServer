@@ -125,6 +125,7 @@ dotnet nuget push &quot;bin/Release/&lt;ApplicationName&gt;.1.0.0.nupkg&quot;  -
 dotnet new console --name OctocatApp</pre>
 
 <h3>Step 3</h3>
+<p>In the project file, add in the tag propertygroup.<p/>
 
 <pre lang="xml">
 &lt;RepositoryUrl&gt;https://github.com/&lt;OrganizationName&gt;/&lt;ApplicationName&gt;/&lt;/RepositoryUrl&gt;
