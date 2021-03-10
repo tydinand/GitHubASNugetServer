@@ -87,11 +87,12 @@ dotnet new console --name OctocatApp</pre>
 <p>Open a command prompt as administrator in the project folder and type:</p>
 
 <pre lang="text">
-dotnet nuget push &quot;bin/Release/&lt;ApplicationName&gt;.1.0.0.nupkg&quot;  --source &quot;github&quot;</pre>
+dotnet nuget push &quot;bin/Release/&lt;ApplicationName&gt;.1.0.0.nupkg&quot;  --source &quot;github&quot; --api-key <Api key></pre>
 
 <ul>
 	<li>Replace &lt;applicationName&gt;</li>
-	<li>Replace version-number</li>
+	<li>Update version-number</li>
+	<li>Replace &lt;api key&gt;</li>
 </ul>
 
 <h2>Finished</h2>
